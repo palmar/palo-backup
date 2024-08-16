@@ -6,6 +6,7 @@ This is a collection of scripts to simplify the workflow of making a backup of t
 
 Terminal commands:
 
+```
 git clone https://github.com/palmar/palo-backup.git
 cd palo-backup/
 chmod a+x *.sh
@@ -13,6 +14,7 @@ chmod a+x *.sh
   (Follow the prompts)
 ./test-api-key.sh
 ./palo-backup.sh
+```
 
 This should create your initial backup of the firewall. Run ./palo-backup.sh any time you want to make a backup.
 
