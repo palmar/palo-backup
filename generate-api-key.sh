@@ -30,6 +30,9 @@ if [ -n "$API_KEY" ]; then
         # Append the IP and API key to devices.txt using space as the separator
         echo "${PAN_IP} ${API_KEY}" >> "$DEVICE_FILE"
         echo "Added ${PAN_IP} and its API key to ${DEVICE_FILE}."
+        
+        # Set correct permissions for devices.txt file
+        chmod 600 "$DEVICE_FILE"
     else
         echo "The IP and API key were not added to devices.txt."
     fi
