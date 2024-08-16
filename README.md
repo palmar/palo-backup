@@ -4,7 +4,7 @@ This is a collection of scripts to simplify the workflow of making a backup of t
 
 ## What you need
 
-All you need is access to a server that has bash and curl, along with a palo alto firewall to back up, and access to that firewall.
+All you need is access to a server or workstation that has bash and curl, along with a palo alto firewall to back up, and access to that firewall.
 
 ## How to use
 
