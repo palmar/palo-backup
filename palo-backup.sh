@@ -13,6 +13,7 @@ touch "$LOG_FILE"
 # Ensure the device file exists, create it if not
 if [ ! -f "$DEVICE_FILE" ]; then
     touch "$DEVICE_FILE"
+    chmod 600 "$DEVICE_FILE"
     echo "$(date +'%Y-%m-%d %H:%M:%S') - ERROR: Device file not found. Created an empty devices.txt file." >> "$LOG_FILE"
     exit 1
 fi
