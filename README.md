@@ -1,10 +1,10 @@
 # palo-backup
 
-This is a collection of scripts to simplify the workflow of making a backup of the XML configuration of a Palo Alto Firewall.
+This is a collection of scripts to simplify the workflow of making a backup of the XML configuration of a Palo Alto firewall.
 
 ## What you need
 
-All you need is access to a server or workstation that has bash and curl, along with a palo alto firewall to back up, and access to that firewall.
+All you need is access to a server or workstation that has bash and curl, along with a Palo Alto firewall to back up, and access to that firewall.
 
 ## How to use
 
