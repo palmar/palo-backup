@@ -6,12 +6,13 @@ This is a collection of scripts to simplify the workflow of making a backup of t
 
 Terminal commands:
 
+Note, you will be asked for a few things while running ./generate-api-key.sh
+
 ```
 git clone https://github.com/palmar/palo-backup.git
 cd palo-backup/
 chmod a+x *.sh
 ./generate-api-key.sh
-  (Follow the prompts)
 ./test-api-key.sh
 ./palo-backup.sh
 ```
