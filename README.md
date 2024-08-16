@@ -2,6 +2,10 @@
 
 This is a collection of scripts to simplify the workflow of making a backup of the XML configuration of a Palo Alto Firewall.
 
+## What you need
+
+All you need is access to a server that has bash and curl, along with a palo alto firewall to back up, and access to that firewall.
+
 ## How to use
 
 Terminal commands:
